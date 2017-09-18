@@ -41,9 +41,14 @@ li {
 	height: 980px;
 	padding: 10px 10px;
 }
+
+/* 不可以这样，如果你有的 p 不想 50px 怎么办 
 p {
 	font-size: 50px;
 }
-#test {
-	height: 1000px
+*/
+
+/* 应该使用class */
+.menu-title {
+	font-size: 50px;
 }
