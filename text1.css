@@ -1,49 +1,71 @@
 * {
-	margin:0;
-	padding: 0;
-	list-style: none;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 div{
-	overflow: hidden;
+  overflow: hidden;
 }
 /*底部设置*/
 a:link,a:visited,a:hover {
-	color: black;
-	background-color: pink;
-	text-decoration: none;
+  color: black;
+  background-color: pink;
+  text-decoration: none;
 }
 a:active {
-	color: white;
-	background-color: pink;
-	text-decoration: none;
+  color: white;
+  background-color: pink;
+  text-decoration: none;
 }
 ul{
-	overflow: hidden;
-	background-color: pink;
+  overflow: hidden;
+  background-color: pink;
 }
 li {
-	float: left;
-	width: 25%;
-	height: 79.2px;
-	font-size: 60px;
-	line-height: 79.2px;
-	text-align: center;
+  float: left;
+  width: 25%;
+  height: 79.2px;
+  font-size: 60px;
+  line-height: 79.2px;
+  text-align: center;
 }
 #navigation {
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 /*内容设置*/
 #article {
-	width: 764px;
-	height: 980px;
-	padding: 10px 10px;
+  overflow: hidden;
+  padding: 10px 10px;
 }
-p {
-	font-size: 50px;
+#sha, #xian, #xiao, #chi {
+ font-size: 50px;
+ overflow: hidden;
 }
 #test {
-	height: 1000px
+  height: 1000px;
+}
+div.box {
+	height: 200px;
+  width: 100%;
+  background-color: grey;
+}
+div.sub {
+  width: 180px;
+  height: 180px;
+  background-color: pink;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+};
+div.sub-right {
+  float: left;
+  width: 500px;
+  height: 180px;
+  background-color: pink;
+  margin-left: 20px;
+  margin-top: 10px;
 }
