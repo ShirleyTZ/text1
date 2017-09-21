@@ -6,9 +6,9 @@ function showP(id) {
       divs[i].style.display = "none";
     } else {
    	  divs[i].style.display = "block";
-   	};
-  };
-};
+   	}
+  }
+}
 function prepare() {
   var body = document.getElementsByTagName("body");
   if (body.length === 0) {
@@ -20,9 +20,9 @@ function prepare() {
   }
   var num = divs.length-1;
   var div = divs[num];
-  var links = div.getElementsByTagName("a");
+  var links = div.getElementsByClassName("top-button");
   for (var i = 0; i < links.length; i++) {
-    var pid = links[i].getAttribute("href").split("#")[1];
+    var pid = links[i].getAttribute("data-name").split("#")[1];
     if (!document.getElementById(pid)) {
       continue;      
     }
