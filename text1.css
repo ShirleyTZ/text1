@@ -41,8 +41,8 @@ li {
   overflow: hidden;
 }
 .top {
-  padding-right: 100px;
   background-color: black;
+  position: relative;
 }
 #shiwujiaoliu,#shiwudan {
   float: left;
@@ -55,16 +55,14 @@ li {
 }
 
 .add {
-  float: left;
   width: 100px;
   height: 100px;
   background-color: black;
   color: white;
   text-align: center;
   line-height: 100px;
-  margin-left: -100px;
-  position: relative;
-  left: 100px;
+  position: absolute;
+  right: 0;
 }
 input {
   width: 100%;
